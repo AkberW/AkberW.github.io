@@ -1,6 +1,182 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  font: 'Avenir', serif;
-  background: white;
+	margin: 0;
+	padding: 0;
+	background: #bebebe;
+	color: black;
+	font-size: 18px;
+	font-family: 'Avenir', serif;
+}
+
+.navbar {
+	background: white;
+	font-family: 'Avenir Next', serif;
+}
+
+.nav.navbar-nav li a {
+	color: black;
+	font-family: 'Avenir Next', serif;
+}
+
+.nav.navbar-nav li a:hover, a p:hover {
+	color: #ff2b00;
+}
+
+.navbar-default .navbar-brand {
+	letter-spacing: 4px;
+	color: black;
+	font-family: 'Avenir Next', serif;
+	font-size: 25px;
+}
+
+.navbar-brand	{
+    position: absolute;
+}
+
+.nav-text {
+	font-size: 15px;
+}
+
+@media (min-width: 991px) {
+
+.navbar ul {
+	display: block;
+	width: 100%;
+}
+
+.navbar ul li {
+	display: block;
+	width: 10%;
+	text-align: center;
+	float: right;
+	}
+
+}
+
+@media (max-width: 991px) {
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none;
+        width: 60%;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+
+	.navbar-brand	{
+	    position: absolute;
+	    width: 100%;
+	    text-align: center;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.nav-text {
+		font-size: 15px;
+	}
+
+
+}
+
+.container:nth-child(2) {
+	margin-top: 100px;
+}
+
+.container {
+	background-color: white;
+	margin-bottom: 80px;
+}
+
+.aboutme, .workcaption {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.workcaption {
+	margin-bottom: 0;
+	text-decoration: underline;
+	font-weight: lighter;
+}
+
+.boxes {
+	width: 275px;
+	height: 275px;
+	background-color: black;
+	margin-top: 80px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.coding {
+	background-image: url(../img/coding.png);
+	height: 275px;
+	width: 100%;
+	background-size: 100% 100%;
+}
+
+.coding:hover {
+	background-image: url(../img/coding2.png);
+}
+
+.editing {
+	background-image: url(../img/editing.png);
+	height: 275px;
+	width: 100%;
+	background-size: 100% 100%;
+}
+
+.editing:hover {
+	background-image: url(../img/editing2.png);
+}
+
+.writing {
+	background-image: url(../img/writing.png);
+	height: 275px;
+	width: 100%;
+	background-size: 100% 100%;
+}
+
+.writing:hover {
+	background-image: url(../img/writing2.png);
+}
+
+.example-text {
+	width: 275px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.indent p {
+	text-indent: 40px;
+	padding: 20px;
+}
+
+.list-title {
+	text-align: center;
+	text-decoration: underline;
+	font-weight: lighter;
+	font-family: 'Avenir Next';
+}
+
+
+.footer {
+	background: white;
+	text-align: center;
+	padding-top: 15px;
 }
