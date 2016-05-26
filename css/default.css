@@ -179,5 +179,7 @@ html, body {
 	background: white;
 	text-align: center;
 	padding-top: 15px;
+	position: fixed;
 	bottom: 0;
+	width: 100%;
 }
