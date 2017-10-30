@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'asenine';
+    src: url('../fonts/asenine.ttf');
+}
+
+@font-face {
+    font-family: 'asent';
+    src: url('../fonts/asent.ttf');
+}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: white;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+footer p {
+  font-size: 20px;
+  font-family: 'asenine';
+  letter-spacing: 5px;
+}
+
+.nav .navbar-nav {
+  float: right;
+}
+
+.navbar {
+  background: white;
+  border-bottom: none;
+  box-shadow: 0px 0px 10px black;
+}
+
+.navbar-inverse .navbar-brand {
+  color: black;
+  font-size: 35px;
+  letter-spacing: 4px;
+  font-family: 'asenine'
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+  font-family: 'asenine';
+  font-size: 23px;
+  letter-spacing: 4px;
+}
+
+
+.navbar-toggle {
+  background-color: black;
+}
+
+#no-hover:hover {
+  color: red;
+}
+
+.page-header {
+  font-family: 'asenine';
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 5px;;
+}
+
+
+.cat-style a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'asent';
+  letter-spacing: 2px;
+}
+
+.cat-style a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border: 1px solid black;
+}
